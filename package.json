@@ -48,7 +48,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build --ENV=production",
+    "build": "react-scripts --openssl-legacy-provider build --ENV=production",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
