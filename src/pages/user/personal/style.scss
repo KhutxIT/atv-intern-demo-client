@@ -1,0 +1,28 @@
+.main {
+  .profile {
+    .profile-stats {
+
+    }
+  }
+  .post-container {
+    .none-personal-post {
+      .divider {
+        -webkit-user-select: auto;
+        user-select: auto;
+        a {
+          height: 30px;
+          margin-left: 10px;
+        }
+      }
+    }
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.follow-modal {
+  margin-top: 50px !important;
+  bottom: 150px !important;
+  left: calc((100% - 720px) / 2) !important;
+}

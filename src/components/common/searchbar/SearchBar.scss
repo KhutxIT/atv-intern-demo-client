@@ -1,0 +1,22 @@
+
+.searchbar {
+  display: flex;
+  border: 1px solid rgb(232, 234, 235);
+  border-radius: 3px;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: inherit;
+}
+
+.searchbar:focus-within {
+  border: 1px solid #0088ff;
+}
+
+.searchbar input {
+  margin-left: 5px;
+  display: inline-block;
+  height: 35px;
+  width: 100%;
+  border: 0;
+  outline: none;
+}

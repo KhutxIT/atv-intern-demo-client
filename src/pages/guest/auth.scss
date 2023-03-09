@@ -1,0 +1,152 @@
+.login-container {
+  display: flex;
+  margin: 200px auto 0 auto;
+  gap: 50px;
+  justify-content: center;
+
+  .introduction {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 50px;
+  }
+
+  .login-content {
+    font-size: 18px;
+    width: 400px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    padding: 20px 20px 28px 20px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+.signup-container {
+  display: flex;
+  margin: 150px auto 0 auto;
+  gap: 50px;
+  justify-content: center;
+
+  .introduction {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 100px;
+  }
+
+  .login-content {
+    font-size: 18px;
+    width: 400px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    padding: 20px 20px 28px 20px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+.auth-app-title {
+  font-size: 30px;
+  /* display: flex; */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.auth-app-title>* {
+  /* margin: 0px auto; */
+}
+
+.auth-app-title>img {
+  width: 20px;
+  height: 20px;
+  display: inline;
+}
+
+.login-title {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.form-ele {
+  padding-bottom: 20px;
+  font-size: 14px;
+
+  .ele-gender {
+    display: flex;
+    align-items: center;
+
+    p {
+      color: #262626;
+      margin-right: 20px;
+    }
+
+    p,
+    span {
+      font-size: 14px !important;
+    }
+  }
+}
+
+.input-name {
+  background-image: none !important;
+  border: thin solid #d3d5d7;
+  border-radius: 10px;
+  height: 48px;
+  color: #363636;
+  font-size: 14px;
+  padding: 0 20px;
+  width: 100%;
+  outline: none;
+  font-weight: 500;
+}
+
+.input-password {
+  background-image: none !important;
+  border: thin solid #d3d5d7;
+  border-radius: 10px;
+  height: 48px;
+  color: #363636;
+  font-size: 14px;
+  padding: 0 20px;
+  width: 100%;
+  outline: none;
+  font-weight: 500;
+}
+
+.input-submit {
+  color: #fff;
+  width: 100%;
+  background-color: #1877f2;
+  border-radius: 10px;
+  border: #fff;
+  display: inline-block;
+  height: 48px;
+  padding: 0 35px;
+  outline: none;
+  transform: translateZ(0);
+  font-size: 20px;
+  cursor: pointer;
+}

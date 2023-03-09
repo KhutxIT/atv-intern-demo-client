@@ -1,0 +1,19 @@
+.list-empty-wrapper {
+  padding-top: 36px;
+  padding-top: 36px;
+  // background: #fff;
+  margin: 0 16px 0px 16px;
+  .empty-content {
+    color: #0F1824;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 36px 0 12px 0;
+    font-size: 20px;
+  }
+  .empty-sub-content {
+    color: #7A8086;
+    line-height: 20px;
+    padding-bottom: 36px;
+    font-size: 14px;
+  }
+}
