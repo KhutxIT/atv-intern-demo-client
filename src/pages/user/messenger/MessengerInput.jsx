@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { chatActions } from '../../../store/action/chatAction';
-import 'emoji-mart/css/emoji-mart.css';
+// import 'emoji-mart/css/emoji-mart.css';
 import uuid from 'uuid/v4';
 import { throttle } from 'throttle-debounce';
 import {

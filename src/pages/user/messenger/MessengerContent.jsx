@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { chatActions } from '../../../store/action/chatAction';
 import { Dimmer, Loader, Button, Popup, Label } from 'semantic-ui-react';
 import { animateScroll } from 'react-scroll';
-import 'emoji-mart/css/emoji-mart.css';
+// import 'emoji-mart/css/emoji-mart.css';
 import MessengerMessages from './MessengerMessages';
 import { MessengerInput } from './MessengerInput';
 
