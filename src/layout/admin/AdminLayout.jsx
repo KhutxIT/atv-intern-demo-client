@@ -36,11 +36,11 @@ const AdminLayout = (props) => {
             exact
             component={ManageNFT}
           />
-          <Route
+          {/* <Route
             path={`${match.path}/nfts/create`}
             exact
             component={Minter}
-          />
+          /> */}
         </Switch>
       </div>
     </div>
